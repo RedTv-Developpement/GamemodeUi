@@ -19,15 +19,15 @@ class Main extends PluginBase implements Listener
 	
 	public function unloadCommands(array $commands = [])
   	{
-      $map = Server::getInstance()->getCommandMap();
-      foreach ($commands as $cmd)
-      {
-          $command = $map->getCommand($cmd);
-          if ($command !== null)
-          {
-              $map->unregister($command);
-          }
-      }
+               $map = Server::getInstance()->getCommandMap();
+               foreach ($commands as $cmd)
+               {
+                       $command = $map->getCommand($cmd);
+                       if ($command !== null)
+                       {
+                             $map->unregister($command);
+                       }
+               }
  	}
 	
 	private function registerEvent()
