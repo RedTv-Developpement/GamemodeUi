@@ -1,0 +1,23 @@
+---
+gamemode.prefix: "§cGamemodeUi >>"
+gamemode.loading: "§eLoading §5GamemodeUi §ein progress..."
+gamemode.enabling: "§aEnabling §5GamemodeUi §ein progress..."
+gamemode.disabling: "§4Disabling §5GamemodeUi §4in progress..."
+gamemode.fromapi: "§cFormAPI is not installed: §5https://poggit.pmmp.io/r/101416/libFormAPI_dev-3.phar"
+gememode.devmod: "§cThe DevMod has been activated so the server has been stopped ..."
+
+gamemode.title: "§e<< GamemodeUi >>"
+gamemode.content: "§eSelect Your GameMode."
+gamemode.button.survival: "§bSurvival"
+gamemode.button.creative: "§bCreative"
+gamemode.button.adventure: "§bAdventure"
+gamemode.button.spectator: "§bSpectator"
+
+gamemode.message.survival: "§eYou are now in §aSurvival§e."
+gamemode.message.creative: "§eYou are now in §aCreative§e."
+gamemode.message.adventure: "§eYou are now in §aAdventure§e."
+gamemode.message.spectator: "§eYou are now in §aSpectator§e."
+
+gamemode.console: "§cThis command cannot be executed on the console !"
+gamemode.player.is.not.online: "§cThe player is not online !"
+...
