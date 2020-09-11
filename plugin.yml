@@ -1,0 +1,11 @@
+name: Gamemode-Simple
+api: [3.15.0, 4.0.0]
+main: gm\Main
+author: RedTv
+version: 1.0
+
+commands: 
+  gamemode:
+    description: "§c>> §5GamemodeUI Command §c<< §4(Command Disabled !)"
+  gm:
+    description: "§c >> §5GamemodeUi Command §c<<"
